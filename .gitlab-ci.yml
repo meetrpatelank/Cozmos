@@ -1,0 +1,13 @@
+stages:
+  - deploy_develop
+
+deploy_develop:
+  stage: deploy_develop
+  tags:
+    - dalfcs_gitlab_docker_ci
+  image: ruby:latest
+  script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - dpl --provider=heroku --app=$HEROKU_NAME_DEV  --api-key=$HEROKU_API_KEY

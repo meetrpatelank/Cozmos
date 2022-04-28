@@ -1,0 +1,20 @@
+/* Author: Fenil Shah */
+/* AUTHOR MEET PATEL: Wishlist Css is done by Meet Patel  */
+/* This file contains some styling properties related to a few elements present in the Cart page. */
+
+.cart-container {
+  /* width: 70%;
+  height: 85%; */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.cart-img {
+  width: 100%;
+  height: 200px;
+}
+.brand-label {
+  color: #909090;
+}
+.btn-quantity {
+  border-radius: 20%;
+  margin: 5%;
+}

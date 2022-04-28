@@ -1,0 +1,47 @@
+.con {
+    padding-top: 4%;
+}
+
+.con_1 {
+    padding-top: 4%;
+}
+
+.img_brand {
+    text-align: center;
+    padding: 10px;
+}
+
+.sec_row {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.row_pad {
+    padding-left: 19%;
+}
+
+.pad {
+    padding-top: 10%;
+}
+
+.box_border {
+    margin-top: 8%;
+    border: 1px solid;
+    width: 9rem;
+    text-align: center;
+}
+
+.prod-image{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.rating-para{
+    margin-top: 1rem;
+}
+
+.product-info{
+    margin-top: 10%;
+}
